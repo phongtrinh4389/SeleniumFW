@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting Webdriver, Browser: chrome,<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the url : [http://52.57.94.156:88/car-suv-van/tyre-finder/],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the element: [Tab Tyre Size],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Select option by Text: [185] from select box: [Width dropdown list],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Select option by Text: [70] from select box: [AspectR dropdown list],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Select option by Text: [14] from select box: [Rim dropdown list],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the element: [Find tyres],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Got the text of element [Breadcumb display text] is : [Home Cars, Suvs & Vans Tyre Results (185/70 R14)],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[[Breadcumb display text] has correct text [Home Cars, Suvs & Vans Tyre Results (185/70 R14)],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Excecute the java script: [arguments[0].scrollIntoView(true);] for the object: [[[ChromeDriver: chrome on XP (571050684fcc3504277ba87a7aff732e)] -> xpath: (//div[@class='item-4'])[1]]],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Scroll into [Lifespan of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[mouseHover [Lifespan of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Got the text of element [Text after hover] is : [LIFESPAN],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Actual object [LIFESPAN] equals the expected object [LIFESPAN],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[mouseHover [Fuel of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Got the text of element [Text after hover] is : [FUEL EFFICIENCY],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Actual object [FUEL EFFICIENCY] equals the expected object [FUEL EFFICIENCY],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[mouseHover [Braking of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Got the text of element [Text after hover] is : [BRAKING],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Actual object [BRAKING] equals the expected object [BRAKING],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[The element Content displayed is not displayed,<span style='color:red'> FAIL </span>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'> Screenshot: </font><a href="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-47.jpg"><img src="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-47.jpg" alt=""height='50' width='50'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[mouseHover [Comfort of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Got the text of element [Text after hover] is : [COMFORT],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[Actual object [COMFORT] equals the expected object [COMFORT],<span style='color:green'> PASS </span><br>]]>
+    </line>
+    <line>
+      <![CDATA[The element Content displayed is not displayed,<span style='color:red'> FAIL </span>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'> Screenshot: </font><a href="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-28.jpg"><img src="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-28.jpg" alt=""height='50' width='50'/> </a><br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="116919" started-at="2018-03-13T04:26:34Z" finished-at="2018-03-13T04:28:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="116919" started-at="2018-03-13T04:26:34Z" finished-at="2018-03-13T04:28:31Z">
+      <class name="test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="beforeSuite" is-config="true" duration-ms="300" started-at="2018-03-13T11:26:33Z" finished-at="2018-03-13T11:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="beforeClass" is-config="true" duration-ms="14749" started-at="2018-03-13T11:26:34Z" finished-at="2018-03-13T11:26:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Webdriver, Browser: chrome,<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to the url : [http://52.57.94.156:88/car-suv-van/tyre-finder/],<span style='color:green'> PASS </span><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-03-13T11:26:48Z" finished-at="2018-03-13T11:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.VerifyListProdUI() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyListProdUI()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="VerifyListProdUI" duration-ms="13825" started-at="2018-03-13T11:26:48Z" description="Choose search by tyre size and then choose value in ddl" finished-at="2018-03-13T11:27:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the element: [Tab Tyre Size],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Select option by Text: [185] from select box: [Width dropdown list],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Select option by Text: [70] from select box: [AspectR dropdown list],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Select option by Text: [14] from select box: [Rim dropdown list],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the element: [Find tyres],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Got the text of element [Breadcumb display text] is : [Home Cars, Suvs & Vans Tyre Results (185/70 R14)],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[[Breadcumb display text] has correct text [Home Cars, Suvs & Vans Tyre Results (185/70 R14)],<span style='color:green'> PASS </span><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyListProdUI -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="1599" started-at="2018-03-13T11:27:02Z" finished-at="2018-03-13T11:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyListProdUI status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.VerifyListProdUI()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output=Click on the element: [Tab Tyre Size],<span style='color:green'> PASS </span><br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.VerifyListProdUI() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:27:04Z" finished-at="2018-03-13T11:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyListProdUI status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.VerifyListProdUI()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output=Click on the element: [Tab Tyre Size],<span style='color:green'> PASS </span><br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="VerifyUIOneProd()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="VerifyUIOneProd" duration-ms="453" started-at="2018-03-13T11:27:04Z" description="Check UI for one product" finished-at="2018-03-13T11:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUIOneProd -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:27:04Z" finished-at="2018-03-13T11:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.VerifyUIOneProd() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="185" started-at="2018-03-13T11:27:04Z" finished-at="2018-03-13T11:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUIOneProd status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.VerifyUIOneProd()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.VerifyUIOneProd() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="HoverOnValue()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="HoverOnValue" duration-ms="84367" started-at="2018-03-13T11:27:04Z" description="Hover on values of product" finished-at="2018-03-13T11:28:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Excecute the java script: [arguments[0].scrollIntoView(true);] for the object: [[[ChromeDriver: chrome on XP (571050684fcc3504277ba87a7aff732e)] -> xpath: (//div[@class='item-4'])[1]]],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Scroll into [Lifespan of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[mouseHover [Lifespan of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Got the text of element [Text after hover] is : [LIFESPAN],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Actual object [LIFESPAN] equals the expected object [LIFESPAN],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[mouseHover [Fuel of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Got the text of element [Text after hover] is : [FUEL EFFICIENCY],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Actual object [FUEL EFFICIENCY] equals the expected object [FUEL EFFICIENCY],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[mouseHover [Braking of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Got the text of element [Text after hover] is : [BRAKING],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Actual object [BRAKING] equals the expected object [BRAKING],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[The element Content displayed is not displayed,<span style='color:red'> FAIL </span>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'> Screenshot: </font><a href="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-47.jpg"><img src="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-47.jpg" alt=""height='50' width='50'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[mouseHover [Comfort of First Prod] successfully,<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Got the text of element [Text after hover] is : [COMFORT],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[Actual object [COMFORT] equals the expected object [COMFORT],<span style='color:green'> PASS </span><br>]]>
+            </line>
+            <line>
+              <![CDATA[The element Content displayed is not displayed,<span style='color:red'> FAIL </span>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'> Screenshot: </font><a href="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-28.jpg"><img src="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-28.jpg" alt=""height='50' width='50'/> </a><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HoverOnValue -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:27:04Z" finished-at="2018-03-13T11:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.HoverOnValue() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:27:04Z" finished-at="2018-03-13T11:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUIOneProd status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.VerifyUIOneProd()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="178" started-at="2018-03-13T11:28:29Z" finished-at="2018-03-13T11:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HoverOnValue status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.HoverOnValue()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output=Excecute the java script: [arguments[0].scrollIntoView(true);] for the object: [[[ChromeDriver: chrome on XP (571050684fcc3504277ba87a7aff732e)] -> xpath: (//div[@class='item-4'])[1]]],<span style='color:green'> PASS </span><br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.HoverOnValue() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:28:29Z" finished-at="2018-03-13T11:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.HoverOnImage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="HoverOnImage()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="HoverOnImage" duration-ms="69" started-at="2018-03-13T11:28:29Z" description="Hover on product image" finished-at="2018-03-13T11:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverOnImage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:28:29Z" finished-at="2018-03-13T11:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HoverOnValue status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.HoverOnValue()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output=Excecute the java script: [arguments[0].scrollIntoView(true);] for the object: [[[ChromeDriver: chrome on XP (571050684fcc3504277ba87a7aff732e)] -> xpath: (//div[@class='item-4'])[1]]],<span style='color:green'> PASS </span><br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="185" started-at="2018-03-13T11:28:29Z" finished-at="2018-03-13T11:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HoverOnImage status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.HoverOnImage()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.HoverOnImage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterClass" is-config="true" duration-ms="1284" started-at="2018-03-13T11:28:29Z" finished-at="2018-03-13T11:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-13T11:28:29Z" finished-at="2018-03-13T11:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HoverOnImage status=SUCCESS method=ProdListPage_VerifyUIMoreOneResult.HoverOnImage()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924]" name="afterSuite" is-config="true" duration-ms="460" started-at="2018-03-13T11:28:31Z" finished-at="2018-03-13T11:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

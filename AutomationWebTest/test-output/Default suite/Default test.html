@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 13 11:26:34 ICT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>116 seconds (116919 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.HoverOnImage()'><b>HoverOnImage</b><br>Test class: test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult<br>Test method: Hover on product image</td>
+<td></td>
+<td>0</td>
+<td>test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924</td></tr>
+<tr>
+<td title='test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.HoverOnValue()'><b>HoverOnValue</b><br>Test class: test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult<br>Test method: Hover on values of product<br/>
+<a href="#Output-1799831668" onClick='toggleBox("Output-1799831668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1799831668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1799831668">
+Excecute the java script: [arguments[0].scrollIntoView(true);] for the object: [[[ChromeDriver: chrome on XP (571050684fcc3504277ba87a7aff732e)] -> xpath: (//div[@class='item-4'])[1]]],<span style='color:green'> PASS </span><br><br/>
+Scroll into [Lifespan of First Prod] successfully,<span style='color:green'> PASS </span><br><br/>
+mouseHover [Lifespan of First Prod] successfully,<span style='color:green'> PASS </span><br><br/>
+Got the text of element [Text after hover] is : [LIFESPAN],<span style='color:green'> PASS </span><br><br/>
+Actual object [LIFESPAN] equals the expected object [LIFESPAN],<span style='color:green'> PASS </span><br><br/>
+mouseHover [Fuel of First Prod] successfully,<span style='color:green'> PASS </span><br><br/>
+Got the text of element [Text after hover] is : [FUEL EFFICIENCY],<span style='color:green'> PASS </span><br><br/>
+Actual object [FUEL EFFICIENCY] equals the expected object [FUEL EFFICIENCY],<span style='color:green'> PASS </span><br><br/>
+mouseHover [Braking of First Prod] successfully,<span style='color:green'> PASS </span><br><br/>
+Got the text of element [Text after hover] is : [BRAKING],<span style='color:green'> PASS </span><br><br/>
+Actual object [BRAKING] equals the expected object [BRAKING],<span style='color:green'> PASS </span><br><br/>
+The element Content displayed is not displayed,<span style='color:red'> FAIL </span><br/>
+<br><br/>
+<font color='red'> Screenshot: </font><a href="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-47.jpg"><img src="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-47.jpg" alt=""height='50' width='50'/> </a><br><br/>
+mouseHover [Comfort of First Prod] successfully,<span style='color:green'> PASS </span><br><br/>
+Got the text of element [Text after hover] is : [COMFORT],<span style='color:green'> PASS </span><br><br/>
+Actual object [COMFORT] equals the expected object [COMFORT],<span style='color:green'> PASS </span><br><br/>
+The element Content displayed is not displayed,<span style='color:red'> FAIL </span><br/>
+<br><br/>
+<font color='red'> Screenshot: </font><a href="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-28.jpg"><img src="file:///E:\Java Workspace\Apollo v1.0\AutomationWebTest\reports\web\\13-03-2018 112633\\Screenshots\03-13-2018_11-28.jpg" alt=""height='50' width='50'/> </a><br><br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924</td></tr>
+<tr>
+<td title='test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.VerifyListProdUI()'><b>VerifyListProdUI</b><br>Test class: test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult<br>Test method: Choose search by tyre size and then choose value in ddl<br/>
+<a href="#Output-583015088" onClick='toggleBox("Output-583015088", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-583015088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-583015088">
+Click on the element: [Tab Tyre Size],<span style='color:green'> PASS </span><br><br/>
+Select option by Text: [185] from select box: [Width dropdown list],<span style='color:green'> PASS </span><br><br/>
+Select option by Text: [70] from select box: [AspectR dropdown list],<span style='color:green'> PASS </span><br><br/>
+Select option by Text: [14] from select box: [Rim dropdown list],<span style='color:green'> PASS </span><br><br/>
+Click on the element: [Find tyres],<span style='color:green'> PASS </span><br><br/>
+Got the text of element [Breadcumb display text] is : [Home Cars, Suvs & Vans Tyre Results (185/70 R14)],<span style='color:green'> PASS </span><br><br/>
+[Breadcumb display text] has correct text [Home Cars, Suvs & Vans Tyre Results (185/70 R14)],<span style='color:green'> PASS </span><br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924</td></tr>
+<tr>
+<td title='test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult.VerifyUIOneProd()'><b>VerifyUIOneProd</b><br>Test class: test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult<br>Test method: Check UI for one product</td>
+<td></td>
+<td>0</td>
+<td>test.testcases.ApolloPVAPMEA.ProdListPage_VerifyUIMoreOneResult@1dfe2924</td></tr>
+</table><p>
+</body>
+</html>
